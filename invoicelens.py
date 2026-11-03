@@ -66,8 +66,12 @@ def fit(rows):
                 dw[j] += error * v
         bias -= 0.25 * db / len(xy)
         weights = [w - 0.25 * (g / len(xy) + 0.01 * w) for w, g in zip(weights, dw)]
+    # Canonical precision suppresses platform math-library noise (~1e-15),
+    # keeping serialized model hashes stable without changing reported scores.
+    weights, bias = [round(w, 12) for w in weights], round(bias, 12)
     return {'type': 'logistic regression', 'features': FEATURES, 'weights': weights,
-            'bias': bias, 'threshold': THRESHOLD, 'training_rows': len(rows),
+            'bias': bias, 'coefficient_decimal_places': 12,
+            'threshold': THRESHOLD, 'training_rows': len(rows),
             'training_sha256': digest(rows), 'version': 'synthetic-lr-v1',
             'warning': 'Uncalibrated ranking score; not a probability of duplicate payment.'}
 

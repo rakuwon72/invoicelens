@@ -36,6 +36,8 @@ Model: logistic regression, full-batch gradient descent, 1,500 steps, learning r
 
 The threshold of 0.60 was specified before the first evaluation and was not tuned on test results. The score is uncalibrated. All thresholds and feature choices are illustrative; no validation set or production calibration was used. Existing ERP controls must remain in place: this prototype is not a replacement and does not implement an ERP-control union.
 
+Saved coefficients are rounded to 12 decimal places before scoring and hashing, avoiding insignificant platform math-library differences in serialized model artifacts. This does not change the reported six-decimal scores or evaluation decisions.
+
 ## Decision order
 
 1. Missing/invalid required values: DATA REVIEW.
