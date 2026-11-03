@@ -1,0 +1,27 @@
+id,scenario,label,status,score,exact,normalized,broad_fuzzy,hybrid,rationale
+E01,Exact resubmission,1,REVIEW,0.607593,True,True,True,True,Both records represent the same fictional equipment delivery.
+E02,Case and punctuation,1,REVIEW,0.607593,False,True,True,True,Only invoice-number presentation changed.
+E03,Duplicate vendor master,1,NO FLAG,0.583624,False,False,True,False,Fictional alias record; same underlying delivery.
+E04,OCR character substitution,1,REVIEW,0.610523,False,False,True,True,Letter O substituted for zero in the same document.
+E05,Reissued number suffix,1,REVIEW,0.608291,False,False,True,True,"Synthetic second billing copy, not a new obligation."
+E06,Late reminder,1,REVIEW,0.606895,True,True,False,True,Date changed on a reminder for the same fictional order.
+E07,Alias plus number change,1,NO FLAG,0.585129,False,False,True,False,Label follows the invented delivery history; text alone is imperfect.
+E08,Short supplier name,1,NO FLAG,0.367045,False,False,False,False,AOS is a fictional alias unknown to the model.
+E09,Different wording same delivery,1,NO FLAG,0.163014,False,False,True,False,"Same fictional shipment, described in different language."
+E10,Duplicate partial-value entry,1,NO FLAG,0.237224,False,False,False,False,Second entry repeats half of the same obligation; equal-amount gate misses it.
+E11,Identical document different vendor ID,1,REVIEW,0.607593,False,False,True,True,Duplicate master ID only; business identity unchanged.
+E12,Date typo on duplicate,1,REVIEW,0.698849,True,True,False,True,Same invoice with an incorrect date; requires source verification.
+E13,Recurring monthly charge,0,NO FLAG,0.158232,False,False,True,False,Equal recurring prices are separate service periods.
+E14,Recurring period missing,0,REVIEW,0.646305,False,False,True,True,"Separate fictional month, but period evidence is missing in the second record."
+E15,Separate delivery same day,0,REVIEW,0.609059,False,False,True,True,Two legitimate identical equipment orders on the same day.
+E16,Unrelated supplier same amount,0,NO FLAG,0.067881,False,False,False,False,Same amount does not establish a common obligation.
+E17,Similar legal names different suppliers,0,NO FLAG,0.576392,False,False,True,False,Separate fictional legal entities; name similarity is misleading.
+E18,Reused number in later period,0,NO FLAG,0.154178,True,True,True,False,Synthetic recurring account reference reused legitimately; period distinguishes obligations.
+E19,Different invoice amount,0,NO FLAG,0.238339,False,False,False,False,New fictional order with a different total.
+E20,Different description and number,0,NO FLAG,0.147548,False,False,True,False,Unrelated service from the same diversified supplier.
+E21,Distant legitimate purchase,0,REVIEW,0.701432,False,False,False,True,Similar equipment reordered months later.
+E22,Distinct recurring period explicit,0,NO FLAG,0.177691,False,False,False,False,Third separate monthly service obligation.
+E23,Missing amount,,DATA REVIEW,0.237224,False,False,False,False,No reliable total: abstain and repair the input.
+E24,Credit note,,SPECIALIST REVIEW,0.243968,False,False,False,False,Credit reconciliation is outside duplicate-invoice scoring.
+E25,Currency mismatch,,OUT OF SCOPE,0.607593,False,False,False,False,No comparison of nominal USD and EUR amounts.
+E26,Invalid invoice date,,DATA REVIEW,0.698849,True,True,False,False,Invalid source value: do not silently infer a date.

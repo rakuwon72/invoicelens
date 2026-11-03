@@ -1,0 +1,2159 @@
+{
+  "model": {
+    "type": "logistic regression",
+    "features": [
+      "vendor_similarity",
+      "invoice_similarity",
+      "description_similarity",
+      "same_amount",
+      "date_proximity",
+      "same_service_period",
+      "different_service_period"
+    ],
+    "weights": [
+      1.2276497375509001,
+      -0.06151793394548612,
+      2.9759290986121454,
+      1.6051652764386959,
+      -0.4046163358678741,
+      1.4917801992242834,
+      -2.2742761289771596
+    ],
+    "bias": -4.905403851046644,
+    "threshold": 0.6,
+    "training_rows": 240,
+    "training_sha256": "d9fd87ea093d23cc7fcf0f5a31bc6037990516f5deeda2bfe0ccdaa128cb5b98",
+    "version": "synthetic-lr-v1",
+    "warning": "Uncalibrated ranking score; not a probability of duplicate payment."
+  },
+  "test_sha256": "2dccbcc0b8ee44789b2c5eea9343b3d78da0185ed772f24dd2020399eaf2c846",
+  "cases": [
+    {
+      "id": "E01",
+      "scenario": "Exact resubmission",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Both records represent the same fictional equipment delivery.",
+      "status": "REVIEW",
+      "score": 0.607593,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": true,
+      "normalized": true,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E02",
+      "scenario": "Case and punctuation",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "ast 2026 081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Only invoice-number presentation changed.",
+      "status": "REVIEW",
+      "score": 0.607593,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "31453d18250b95a7d3ad72d38ee1c0ac291aecaa1df256adc72d5ef72d57677f",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": true,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E03",
+      "scenario": "Duplicate vendor master",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply LLC",
+        "vendor_id": "V991",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Fictional alias record; same underlying delivery.",
+      "status": "NO FLAG",
+      "score": 0.583624,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 0.9189,
+          "logit_contribution": 1.1281
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "346a4110264f17092ce010d056202003bb2bb1f6a6c71ee31ca80715e77b3f21",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E04",
+      "scenario": "OCR character substitution",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2O26-O81",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Letter O substituted for zero in the same document.",
+      "status": "REVIEW",
+      "score": 0.610523,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.8,
+          "logit_contribution": -0.0492
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "904b511f9ffa6b695a2273510294c092e426eeb0dcc85c57a6e731ee675d63fc",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E05",
+      "scenario": "Reissued number suffix",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081R",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Synthetic second billing copy, not a new obligation.",
+      "status": "REVIEW",
+      "score": 0.608291,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.9524,
+          "logit_contribution": -0.0586
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "a70a473aa29cba1a29e4b24e61938a2ff722639ee6c5c3cf7196eb6dcd4a892f",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E06",
+      "scenario": "Late reminder",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-12-15",
+        "description": "Replacement workstation equipment reminder",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Date changed on a reminder for the same fictional order.",
+      "status": "REVIEW",
+      "score": 0.606895,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 0.8857,
+          "logit_contribution": 2.6358
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0.1667,
+          "logit_contribution": -0.0674
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "71091c654868231c1eedab006cffb91f0f198441294b47f4bcd05ae7fe239e74",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": true,
+      "normalized": true,
+      "broad_fuzzy": false,
+      "hybrid": true
+    },
+    {
+      "id": "E07",
+      "scenario": "Alias plus number change",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supplies",
+        "vendor_id": "V802",
+        "number": "081-REISSUE",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Label follows the invented delivery history; text alone is imperfect.",
+      "status": "NO FLAG",
+      "score": 0.585129,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 0.8889,
+          "logit_contribution": 1.0912
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.3,
+          "logit_contribution": -0.0185
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "edff18ace8a875e2c1c4387dc711786fbb94604e923ce7784aadab8c77103362",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E08",
+      "scenario": "Short supplier name",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "AOS",
+        "vendor_id": "V803",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "AOS is a fictional alias unknown to the model.",
+      "status": "NO FLAG",
+      "score": 0.367045,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 0.2,
+          "logit_contribution": 0.2455
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "afda391b14296948bebd906c82f7a930917340e86b0cdca65c1847bed93e70f3",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E09",
+      "scenario": "Different wording same delivery",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST081-COPY",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Computers for the operations floor",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Same fictional shipment, described in different language.",
+      "status": "NO FLAG",
+      "score": 0.163014,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.6,
+          "logit_contribution": -0.0369
+        },
+        {
+          "feature": "description_similarity",
+          "value": 0.2951,
+          "logit_contribution": 0.8781
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "b2d5865a72b0bf10954a6af67c656d3270112ce3bee4f4b03cccd7b5604de58d",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E10",
+      "scenario": "Duplicate partial-value entry",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "625.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Second entry repeats half of the same obligation; equal-amount gate misses it.",
+      "status": "NO FLAG",
+      "score": 0.237224,
+      "reasons": [
+        "Amounts differ exactly. Partial/revised duplicates can be missed by this narrow scope.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "c38a291072427eb3a2874f66563e5c857c83e12bc03ff5a56a2e07d0e3e0c986",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E11",
+      "scenario": "Identical document different vendor ID",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V900",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Duplicate master ID only; business identity unchanged.",
+      "status": "REVIEW",
+      "score": 0.607593,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "8d6b7ba085332b2dd5c8af766ffdb42e4c5b5fc33ad91e592046a006c2ae1b58",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E12",
+      "scenario": "Date typo on duplicate",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-01-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 1,
+      "rationale": "Same invoice with an incorrect date; requires source verification.",
+      "status": "REVIEW",
+      "score": 0.698849,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0,
+          "logit_contribution": -0.0
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "6dc20672ed5baf1f197d7aab9db933d5315a7aa9dec2b83c71d1cae1b6478322",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": true,
+      "normalized": true,
+      "broad_fuzzy": false,
+      "hybrid": true
+    },
+    {
+      "id": "E13",
+      "scenario": "Recurring monthly charge",
+      "a": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-SEP",
+        "amount": "900.00",
+        "date": "2026-09-30",
+        "description": "Managed network service",
+        "period": "2026-09",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-OCT",
+        "amount": "900.00",
+        "date": "2026-10-30",
+        "description": "Managed network service",
+        "period": "2026-10",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Equal recurring prices are separate service periods.",
+      "status": "NO FLAG",
+      "score": 0.158232,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.5,
+          "logit_contribution": -0.0308
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0.6667,
+          "logit_contribution": -0.2697
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 1.0,
+          "logit_contribution": -2.2743
+        }
+      ],
+      "a_sha256": "a0d4d7d40d5d180ac63a9a7c78a7c9ec6ffe79621fd58027c07063238a4c6bc9",
+      "b_sha256": "bcdc9a9ab33c3018b96d8a6c20eed80e06c2c70a4c91a7a0054781ce8afac3df",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E14",
+      "scenario": "Recurring period missing",
+      "a": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-SEP",
+        "amount": "900.00",
+        "date": "2026-09-30",
+        "description": "Managed network service",
+        "period": "2026-09",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-OCT",
+        "amount": "900.00",
+        "date": "2026-10-30",
+        "description": "Managed network service",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Separate fictional month, but period evidence is missing in the second record.",
+      "status": "REVIEW",
+      "score": 0.646305,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.5,
+          "logit_contribution": -0.0308
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0.6667,
+          "logit_contribution": -0.2697
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "a0d4d7d40d5d180ac63a9a7c78a7c9ec6ffe79621fd58027c07063238a4c6bc9",
+      "b_sha256": "fb39543de6ac30b4c3e6710d7d49fbb03355598f8ed6807fda66bd43877e6e0b",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E15",
+      "scenario": "Separate delivery same day",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-082",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Two legitimate identical equipment orders on the same day.",
+      "status": "REVIEW",
+      "score": 0.609059,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.9,
+          "logit_contribution": -0.0554
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "3674004c77dc842dfa6d37ced237ef6a40a80dfc596e56cbf26bc825501f891b",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": true
+    },
+    {
+      "id": "E16",
+      "scenario": "Unrelated supplier same amount",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Lakeside Catering",
+        "vendor_id": "V999",
+        "number": "LC-456",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Conference lunch",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Same amount does not establish a common obligation.",
+      "status": "NO FLAG",
+      "score": 0.067881,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 0.3636,
+          "logit_contribution": 0.4464
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.1333,
+          "logit_contribution": -0.0082
+        },
+        {
+          "feature": "description_similarity",
+          "value": 0.2174,
+          "logit_contribution": 0.6469
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "42f3e2802c059115ae03cc59442f4ed336a540637f252dad8a4d829c7ef43e04",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E17",
+      "scenario": "Similar legal names different suppliers",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply East",
+        "vendor_id": "V777",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Separate fictional legal entities; name similarity is misleading.",
+      "status": "NO FLAG",
+      "score": 0.576392,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 0.8947,
+          "logit_contribution": 1.0984
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "7cfaa0220b787c1e511a86dac3edb23ed2f3d2ba4bd39b7039081a47deb6d68a",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E18",
+      "scenario": "Reused number in later period",
+      "a": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-SEP",
+        "amount": "900.00",
+        "date": "2026-09-30",
+        "description": "Managed network service",
+        "period": "2026-09",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-SEP",
+        "amount": "900.00",
+        "date": "2026-10-30",
+        "description": "Managed network service",
+        "period": "2026-10",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Synthetic recurring account reference reused legitimately; period distinguishes obligations.",
+      "status": "NO FLAG",
+      "score": 0.154178,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0.6667,
+          "logit_contribution": -0.2697
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 1.0,
+          "logit_contribution": -2.2743
+        }
+      ],
+      "a_sha256": "a0d4d7d40d5d180ac63a9a7c78a7c9ec6ffe79621fd58027c07063238a4c6bc9",
+      "b_sha256": "a52d0efdc246cd9eac6a42491b1b5c77f04e90f0438dd0629939b65910dd2983",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": true,
+      "normalized": true,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E19",
+      "scenario": "Different invoice amount",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-085",
+        "amount": "1500.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "New fictional order with a different total.",
+      "status": "NO FLAG",
+      "score": 0.238339,
+      "reasons": [
+        "Amounts differ exactly. Partial/revised duplicates can be missed by this narrow scope.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.9,
+          "logit_contribution": -0.0554
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "9ccea448270341b51242c9711b3b72bc5d49dcd1d810770f85b6f86f4fad626c",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E20",
+      "scenario": "Different description and number",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "DEL-940",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Annual office carpet cleaning",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Unrelated service from the same diversified supplier.",
+      "status": "NO FLAG",
+      "score": 0.147548,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.125,
+          "logit_contribution": -0.0077
+        },
+        {
+          "feature": "description_similarity",
+          "value": 0.2456,
+          "logit_contribution": 0.7309
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "5ec1ef554df79946fecdea7068b97adac2a41e6b2d7ba7c5bd30ae09132b7031",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": true,
+      "hybrid": false
+    },
+    {
+      "id": "E21",
+      "scenario": "Distant legitimate purchase",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-099",
+        "amount": "1250.00",
+        "date": "2026-12-30",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Similar equipment reordered months later.",
+      "status": "REVIEW",
+      "score": 0.701432,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.8,
+          "logit_contribution": -0.0492
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0,
+          "logit_contribution": -0.0
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "ce7e51529321744dbf0febf912b92dac34a89c0f1b055167b45e297e027585eb",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": true
+    },
+    {
+      "id": "E22",
+      "scenario": "Distinct recurring period explicit",
+      "a": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-SEP",
+        "amount": "900.00",
+        "date": "2026-09-30",
+        "description": "Managed network service",
+        "period": "2026-09",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Harbor Network Care",
+        "vendor_id": "V901",
+        "number": "HNC-NOV",
+        "amount": "900.00",
+        "date": "2026-11-30",
+        "description": "Managed network service",
+        "period": "2026-11",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": 0,
+      "rationale": "Third separate monthly service obligation.",
+      "status": "NO FLAG",
+      "score": 0.177691,
+      "reasons": [
+        "Equal USD face amounts; this is not evidence of settlement.",
+        "Compare invoice identity, service period and supporting receipt before deciding.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.5,
+          "logit_contribution": -0.0308
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0.3222,
+          "logit_contribution": -0.1304
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 1.0,
+          "logit_contribution": -2.2743
+        }
+      ],
+      "a_sha256": "a0d4d7d40d5d180ac63a9a7c78a7c9ec6ffe79621fd58027c07063238a4c6bc9",
+      "b_sha256": "c15f3c20e7dc84b3398038c0e1768876dd6c72bc872e63ea6a9400a117ffa07e",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E23",
+      "scenario": "Missing amount",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": null,
+      "rationale": "No reliable total: abstain and repair the input.",
+      "expected_route": "DATA REVIEW",
+      "status": "DATA REVIEW",
+      "score": 0.237224,
+      "reasons": [
+        "A required field is missing or invalid; scoring cannot settle this pair.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "1c7341def0f468de094ff4cd1e23a2c067ef42c24021a29cdc74bcacfbb42e84",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E24",
+      "scenario": "Credit note",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "CN-081",
+        "amount": "-1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "credit_note"
+      },
+      "label": null,
+      "rationale": "Credit reconciliation is outside duplicate-invoice scoring.",
+      "expected_route": "SPECIALIST REVIEW",
+      "status": "SPECIALIST REVIEW",
+      "score": 0.243968,
+      "reasons": [
+        "Credit notes and non-positive amounts need a separate reconciliation workflow.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 0.4,
+          "logit_contribution": -0.0246
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "2696b538ad7d9f9258b5b401056a2b0a84c9aac6224ec82fde08fdad83321b7d",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E25",
+      "scenario": "Currency mismatch",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "EUR",
+        "kind": "invoice"
+      },
+      "label": null,
+      "rationale": "No comparison of nominal USD and EUR amounts.",
+      "expected_route": "OUT OF SCOPE",
+      "status": "OUT OF SCOPE",
+      "score": 0.607593,
+      "reasons": [
+        "Only USD invoice pairs are supported; no exchange-rate conversion is performed.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 1.0,
+          "logit_contribution": -0.4046
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "443061fda0f030e887e28e6103e2d1ddcaddaa6ca128361bfcae0fcfd1423ea4",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": false,
+      "normalized": false,
+      "broad_fuzzy": false,
+      "hybrid": false
+    },
+    {
+      "id": "E26",
+      "scenario": "Invalid invoice date",
+      "a": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-10-01",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "b": {
+        "vendor": "Aster Office Supply",
+        "vendor_id": "V801",
+        "number": "AST-2026-081",
+        "amount": "1250.00",
+        "date": "2026-13-99",
+        "description": "Replacement workstation equipment",
+        "period": "",
+        "currency": "USD",
+        "kind": "invoice"
+      },
+      "label": null,
+      "rationale": "Invalid source value: do not silently infer a date.",
+      "expected_route": "DATA REVIEW",
+      "status": "DATA REVIEW",
+      "score": 0.698849,
+      "reasons": [
+        "A required field is missing or invalid; scoring cannot settle this pair.",
+        "NO FLAG never means approved for payment."
+      ],
+      "contributions": [
+        {
+          "feature": "vendor_similarity",
+          "value": 1.0,
+          "logit_contribution": 1.2276
+        },
+        {
+          "feature": "invoice_similarity",
+          "value": 1.0,
+          "logit_contribution": -0.0615
+        },
+        {
+          "feature": "description_similarity",
+          "value": 1.0,
+          "logit_contribution": 2.9759
+        },
+        {
+          "feature": "same_amount",
+          "value": 1.0,
+          "logit_contribution": 1.6052
+        },
+        {
+          "feature": "date_proximity",
+          "value": 0,
+          "logit_contribution": -0.0
+        },
+        {
+          "feature": "same_service_period",
+          "value": 0.0,
+          "logit_contribution": 0.0
+        },
+        {
+          "feature": "different_service_period",
+          "value": 0.0,
+          "logit_contribution": -0.0
+        }
+      ],
+      "a_sha256": "d56b2d50eb9cc4c7983e28c1bc9c0c37315293afd33ef09aed4328c06f6a737a",
+      "b_sha256": "e30f9f9f26953f8051fcc7ef1856ced0f0e6b083db124ae5bd3cc61a85f650e6",
+      "model_sha256": "f3d9ccd1d2dd6872f879e4806883efc191c29f5342e873b3a668bd42c15a936e",
+      "policy_version": "usd-equal-face-amount-v1",
+      "exact": true,
+      "normalized": true,
+      "broad_fuzzy": false,
+      "hybrid": false
+    }
+  ],
+  "metrics": {
+    "exact": {
+      "tp": 3,
+      "fp": 1,
+      "fn": 9,
+      "tn": 9,
+      "precision": 0.75,
+      "recall": 0.25,
+      "flagged": 4,
+      "labeled_pairs": 22
+    },
+    "normalized": {
+      "tp": 4,
+      "fp": 1,
+      "fn": 8,
+      "tn": 9,
+      "precision": 0.8,
+      "recall": 0.3333,
+      "flagged": 5,
+      "labeled_pairs": 22
+    },
+    "broad_fuzzy": {
+      "tp": 8,
+      "fp": 6,
+      "fn": 4,
+      "tn": 4,
+      "precision": 0.5714,
+      "recall": 0.6667,
+      "flagged": 14,
+      "labeled_pairs": 22
+    },
+    "hybrid": {
+      "tp": 7,
+      "fp": 3,
+      "fn": 5,
+      "tn": 7,
+      "precision": 0.7,
+      "recall": 0.5833,
+      "flagged": 10,
+      "labeled_pairs": 22
+    }
+  },
+  "routing_checks": {
+    "E23": true,
+    "E24": true,
+    "E25": true,
+    "E26": true
+  },
+  "limitations": "AI-authored synthetic data and labels. Test templates overlap with training motifs. No independent field validation, OCR, production calibration, or timing study."
+}

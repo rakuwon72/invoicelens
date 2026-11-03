@@ -1,0 +1,6242 @@
+[
+  {
+    "id": "T000",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T0",
+      "number": "TRN-1000",
+      "amount": "2676.00",
+      "date": "2026-06-06",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T0",
+      "number": "TRN-1000",
+      "amount": "2676.00",
+      "date": "2026-06-06",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T001",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T1",
+      "number": "TRN-1001",
+      "amount": "2208.00",
+      "date": "2026-06-02",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T1",
+      "number": "trn 1001",
+      "amount": "2208.00",
+      "date": "2026-06-02",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T002",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T2",
+      "number": "TRN-1002",
+      "amount": "8348.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies LLC",
+      "vendor_id": "ALIAS2",
+      "number": "TRN-1002R",
+      "amount": "8348.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T003",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T3",
+      "number": "TRN-1003",
+      "amount": "5344.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T3",
+      "number": "TRN-I003",
+      "amount": "5344.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T004",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T4",
+      "number": "TRN-1004",
+      "amount": "7472.00",
+      "date": "2026-06-11",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T4",
+      "number": "TRN-1005",
+      "amount": "7472.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T005",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T5",
+      "number": "TRN-1005",
+      "amount": "8676.00",
+      "date": "2026-06-04",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER5",
+      "number": "TRN-1005",
+      "amount": "8676.00",
+      "date": "2026-06-04",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T006",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T6",
+      "number": "TRN-1006",
+      "amount": "3590.00",
+      "date": "2026-06-17",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T6",
+      "number": "OTHER-6",
+      "amount": "13714.00",
+      "date": "2026-06-17",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T007",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T7",
+      "number": "TRN-1007",
+      "amount": "5993.00",
+      "date": "2026-06-02",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T7",
+      "number": "NEW-7",
+      "amount": "5993.00",
+      "date": "2026-06-02",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T008",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T8",
+      "number": "TRN-1008",
+      "amount": "3227.00",
+      "date": "2026-06-19",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T8",
+      "number": "TRN-1008",
+      "amount": "3227.00",
+      "date": "2026-06-19",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T009",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T9",
+      "number": "TRN-1009",
+      "amount": "1801.00",
+      "date": "2026-06-11",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T9",
+      "number": "trn 1009",
+      "amount": "1801.00",
+      "date": "2026-06-11",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T010",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T10",
+      "number": "TRN-1010",
+      "amount": "7861.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services LLC",
+      "vendor_id": "ALIAS10",
+      "number": "TRN-1010R",
+      "amount": "7861.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T011",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T11",
+      "number": "TRN-1011",
+      "amount": "669.00",
+      "date": "2026-06-05",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T11",
+      "number": "TRN-I0II",
+      "amount": "669.00",
+      "date": "2026-06-25",
+      "description": "Monthly IT support copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T012",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T12",
+      "number": "TRN-1012",
+      "amount": "8611.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T12",
+      "number": "TRN-1013",
+      "amount": "8611.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T013",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T13",
+      "number": "TRN-1013",
+      "amount": "5424.00",
+      "date": "2026-06-02",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER13",
+      "number": "TRN-1013",
+      "amount": "5424.00",
+      "date": "2026-06-02",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T014",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T14",
+      "number": "TRN-1014",
+      "amount": "8424.00",
+      "date": "2026-06-14",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T14",
+      "number": "OTHER-14",
+      "amount": "15820.00",
+      "date": "2026-06-14",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T015",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T15",
+      "number": "TRN-1015",
+      "amount": "3694.00",
+      "date": "2026-06-11",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T15",
+      "number": "NEW-15",
+      "amount": "3694.00",
+      "date": "2026-06-11",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T016",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T16",
+      "number": "TRN-1016",
+      "amount": "5788.00",
+      "date": "2026-06-14",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T16",
+      "number": "TRN-1016",
+      "amount": "5788.00",
+      "date": "2026-06-14",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T017",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T17",
+      "number": "TRN-1017",
+      "amount": "8813.00",
+      "date": "2026-06-04",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T17",
+      "number": "trn 1017",
+      "amount": "8813.00",
+      "date": "2026-06-04",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T018",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T18",
+      "number": "TRN-1018",
+      "amount": "4946.00",
+      "date": "2026-06-13",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies LLC",
+      "vendor_id": "ALIAS18",
+      "number": "TRN-1018R",
+      "amount": "4946.00",
+      "date": "2026-06-13",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T019",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T19",
+      "number": "TRN-1019",
+      "amount": "6040.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T19",
+      "number": "TRN-I0I9",
+      "amount": "6040.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T020",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T20",
+      "number": "TRN-1020",
+      "amount": "5460.00",
+      "date": "2026-06-16",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T20",
+      "number": "TRN-1021",
+      "amount": "5460.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T021",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T21",
+      "number": "TRN-1021",
+      "amount": "4524.00",
+      "date": "2026-06-05",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER21",
+      "number": "TRN-1021",
+      "amount": "4524.00",
+      "date": "2026-06-05",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T022",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T22",
+      "number": "TRN-1022",
+      "amount": "5776.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T22",
+      "number": "OTHER-22",
+      "amount": "13934.00",
+      "date": "2026-06-18",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T023",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T23",
+      "number": "TRN-1023",
+      "amount": "2849.00",
+      "date": "2026-06-11",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T23",
+      "number": "NEW-23",
+      "amount": "2849.00",
+      "date": "2026-06-11",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T024",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T24",
+      "number": "TRN-1024",
+      "amount": "3162.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T24",
+      "number": "TRN-1024",
+      "amount": "3162.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T025",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T25",
+      "number": "TRN-1025",
+      "amount": "7275.00",
+      "date": "2026-06-06",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T25",
+      "number": "trn 1025",
+      "amount": "7275.00",
+      "date": "2026-06-06",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T026",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T26",
+      "number": "TRN-1026",
+      "amount": "8007.00",
+      "date": "2026-06-08",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services LLC",
+      "vendor_id": "ALIAS26",
+      "number": "TRN-1026R",
+      "amount": "8007.00",
+      "date": "2026-06-08",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T027",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T27",
+      "number": "TRN-1027",
+      "amount": "6648.00",
+      "date": "2026-06-07",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T27",
+      "number": "TRN-I027",
+      "amount": "6648.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T028",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T28",
+      "number": "TRN-1028",
+      "amount": "1555.00",
+      "date": "2026-06-20",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T28",
+      "number": "TRN-1029",
+      "amount": "1555.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T029",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T29",
+      "number": "TRN-1029",
+      "amount": "1851.00",
+      "date": "2026-06-18",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER29",
+      "number": "TRN-1029",
+      "amount": "1851.00",
+      "date": "2026-06-18",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T030",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T30",
+      "number": "TRN-1030",
+      "amount": "8178.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T30",
+      "number": "OTHER-30",
+      "amount": "18583.00",
+      "date": "2026-06-04",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T031",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T31",
+      "number": "TRN-1031",
+      "amount": "7992.00",
+      "date": "2026-06-16",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T31",
+      "number": "NEW-31",
+      "amount": "7992.00",
+      "date": "2026-06-16",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T032",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T32",
+      "number": "TRN-1032",
+      "amount": "8229.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T32",
+      "number": "TRN-1032",
+      "amount": "8229.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T033",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T33",
+      "number": "TRN-1033",
+      "amount": "4671.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T33",
+      "number": "trn 1033",
+      "amount": "4671.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T034",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T34",
+      "number": "TRN-1034",
+      "amount": "1991.00",
+      "date": "2026-06-01",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services LLC",
+      "vendor_id": "ALIAS34",
+      "number": "TRN-1034R",
+      "amount": "1991.00",
+      "date": "2026-06-01",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T035",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T35",
+      "number": "TRN-1035",
+      "amount": "2971.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T35",
+      "number": "TRN-I035",
+      "amount": "2971.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T036",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T36",
+      "number": "TRN-1036",
+      "amount": "5737.00",
+      "date": "2026-06-19",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T36",
+      "number": "TRN-1037",
+      "amount": "5737.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T037",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T37",
+      "number": "TRN-1037",
+      "amount": "1416.00",
+      "date": "2026-06-08",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER37",
+      "number": "TRN-1037",
+      "amount": "1416.00",
+      "date": "2026-06-08",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T038",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T38",
+      "number": "TRN-1038",
+      "amount": "8530.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T38",
+      "number": "OTHER-38",
+      "amount": "15710.00",
+      "date": "2026-06-01",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T039",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T39",
+      "number": "TRN-1039",
+      "amount": "5228.00",
+      "date": "2026-06-14",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T39",
+      "number": "NEW-39",
+      "amount": "5228.00",
+      "date": "2026-06-14",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T040",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T40",
+      "number": "TRN-1040",
+      "amount": "3676.00",
+      "date": "2026-06-16",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T40",
+      "number": "TRN-1040",
+      "amount": "3676.00",
+      "date": "2026-06-16",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T041",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T41",
+      "number": "TRN-1041",
+      "amount": "1385.00",
+      "date": "2026-06-16",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T41",
+      "number": "trn 1041",
+      "amount": "1385.00",
+      "date": "2026-06-16",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T042",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T42",
+      "number": "TRN-1042",
+      "amount": "7199.00",
+      "date": "2026-06-16",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment LLC",
+      "vendor_id": "ALIAS42",
+      "number": "TRN-1042R",
+      "amount": "7199.00",
+      "date": "2026-06-16",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T043",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T43",
+      "number": "TRN-1043",
+      "amount": "8823.00",
+      "date": "2026-06-01",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T43",
+      "number": "TRN-I043",
+      "amount": "8823.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T044",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T44",
+      "number": "TRN-1044",
+      "amount": "3184.00",
+      "date": "2026-06-06",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T44",
+      "number": "TRN-1045",
+      "amount": "3184.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T045",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T45",
+      "number": "TRN-1045",
+      "amount": "8606.00",
+      "date": "2026-06-03",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER45",
+      "number": "TRN-1045",
+      "amount": "8606.00",
+      "date": "2026-06-03",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T046",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T46",
+      "number": "TRN-1046",
+      "amount": "421.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T46",
+      "number": "OTHER-46",
+      "amount": "14906.00",
+      "date": "2026-06-14",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T047",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T47",
+      "number": "TRN-1047",
+      "amount": "1726.00",
+      "date": "2026-06-12",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T47",
+      "number": "NEW-47",
+      "amount": "1726.00",
+      "date": "2026-06-12",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T048",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T48",
+      "number": "TRN-1048",
+      "amount": "8538.00",
+      "date": "2026-06-05",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T48",
+      "number": "TRN-1048",
+      "amount": "8538.00",
+      "date": "2026-06-05",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T049",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T49",
+      "number": "TRN-1049",
+      "amount": "7429.00",
+      "date": "2026-06-17",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T49",
+      "number": "trn 1049",
+      "amount": "7429.00",
+      "date": "2026-06-17",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T050",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T50",
+      "number": "TRN-1050",
+      "amount": "2909.00",
+      "date": "2026-06-08",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies LLC",
+      "vendor_id": "ALIAS50",
+      "number": "TRN-1050R",
+      "amount": "2909.00",
+      "date": "2026-06-08",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T051",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T51",
+      "number": "TRN-1051",
+      "amount": "2761.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T51",
+      "number": "TRN-I05I",
+      "amount": "2761.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T052",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T52",
+      "number": "TRN-1052",
+      "amount": "232.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T52",
+      "number": "TRN-1053",
+      "amount": "232.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T053",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T53",
+      "number": "TRN-1053",
+      "amount": "7929.00",
+      "date": "2026-06-20",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER53",
+      "number": "TRN-1053",
+      "amount": "7929.00",
+      "date": "2026-06-20",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T054",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T54",
+      "number": "TRN-1054",
+      "amount": "407.00",
+      "date": "2026-06-12",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T54",
+      "number": "OTHER-54",
+      "amount": "19543.00",
+      "date": "2026-06-12",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T055",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T55",
+      "number": "TRN-1055",
+      "amount": "2782.00",
+      "date": "2026-06-15",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T55",
+      "number": "NEW-55",
+      "amount": "2782.00",
+      "date": "2026-06-15",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T056",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T56",
+      "number": "TRN-1056",
+      "amount": "8372.00",
+      "date": "2026-06-05",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T56",
+      "number": "TRN-1056",
+      "amount": "8372.00",
+      "date": "2026-06-05",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T057",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T57",
+      "number": "TRN-1057",
+      "amount": "8917.00",
+      "date": "2026-06-11",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T57",
+      "number": "trn 1057",
+      "amount": "8917.00",
+      "date": "2026-06-11",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T058",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T58",
+      "number": "TRN-1058",
+      "amount": "4845.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment LLC",
+      "vendor_id": "ALIAS58",
+      "number": "TRN-1058R",
+      "amount": "4845.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T059",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T59",
+      "number": "TRN-1059",
+      "amount": "379.00",
+      "date": "2026-06-16",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T59",
+      "number": "TRN-I059",
+      "amount": "379.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T060",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T60",
+      "number": "TRN-1060",
+      "amount": "2029.00",
+      "date": "2026-06-11",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T60",
+      "number": "TRN-1061",
+      "amount": "2029.00",
+      "date": "2026-07-10",
+      "description": "Printer cartridge order",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T061",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T61",
+      "number": "TRN-1061",
+      "amount": "6153.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER61",
+      "number": "TRN-1061",
+      "amount": "6153.00",
+      "date": "2026-06-18",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T062",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T62",
+      "number": "TRN-1062",
+      "amount": "8817.00",
+      "date": "2026-06-02",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T62",
+      "number": "OTHER-62",
+      "amount": "12155.00",
+      "date": "2026-06-02",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T063",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T63",
+      "number": "TRN-1063",
+      "amount": "8941.00",
+      "date": "2026-06-18",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T63",
+      "number": "NEW-63",
+      "amount": "8941.00",
+      "date": "2026-06-18",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T064",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T64",
+      "number": "TRN-1064",
+      "amount": "908.00",
+      "date": "2026-06-01",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T64",
+      "number": "TRN-1064",
+      "amount": "908.00",
+      "date": "2026-06-01",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T065",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T65",
+      "number": "TRN-1065",
+      "amount": "7519.00",
+      "date": "2026-06-12",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T65",
+      "number": "trn 1065",
+      "amount": "7519.00",
+      "date": "2026-06-12",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T066",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T66",
+      "number": "TRN-1066",
+      "amount": "5672.00",
+      "date": "2026-06-10",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies LLC",
+      "vendor_id": "ALIAS66",
+      "number": "TRN-1066R",
+      "amount": "5672.00",
+      "date": "2026-06-10",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T067",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T67",
+      "number": "TRN-1067",
+      "amount": "7317.00",
+      "date": "2026-06-12",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T67",
+      "number": "TRN-I067",
+      "amount": "7317.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T068",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T68",
+      "number": "TRN-1068",
+      "amount": "6615.00",
+      "date": "2026-06-08",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T68",
+      "number": "TRN-1069",
+      "amount": "6615.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T069",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T69",
+      "number": "TRN-1069",
+      "amount": "5619.00",
+      "date": "2026-06-15",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER69",
+      "number": "TRN-1069",
+      "amount": "5619.00",
+      "date": "2026-06-15",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T070",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T70",
+      "number": "TRN-1070",
+      "amount": "2243.00",
+      "date": "2026-06-12",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T70",
+      "number": "OTHER-70",
+      "amount": "15813.00",
+      "date": "2026-06-12",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T071",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T71",
+      "number": "TRN-1071",
+      "amount": "6929.00",
+      "date": "2026-06-19",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T71",
+      "number": "NEW-71",
+      "amount": "6929.00",
+      "date": "2026-06-19",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T072",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T72",
+      "number": "TRN-1072",
+      "amount": "1633.00",
+      "date": "2026-06-03",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T72",
+      "number": "TRN-1072",
+      "amount": "1633.00",
+      "date": "2026-06-03",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T073",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T73",
+      "number": "TRN-1073",
+      "amount": "3950.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T73",
+      "number": "trn 1073",
+      "amount": "3950.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T074",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T74",
+      "number": "TRN-1074",
+      "amount": "48.00",
+      "date": "2026-06-08",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services LLC",
+      "vendor_id": "ALIAS74",
+      "number": "TRN-1074R",
+      "amount": "48.00",
+      "date": "2026-06-08",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T075",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T75",
+      "number": "TRN-1075",
+      "amount": "3332.00",
+      "date": "2026-06-13",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T75",
+      "number": "TRN-I075",
+      "amount": "3332.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T076",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T76",
+      "number": "TRN-1076",
+      "amount": "6956.00",
+      "date": "2026-06-07",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T76",
+      "number": "TRN-1077",
+      "amount": "6956.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T077",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T77",
+      "number": "TRN-1077",
+      "amount": "2500.00",
+      "date": "2026-06-06",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER77",
+      "number": "TRN-1077",
+      "amount": "2500.00",
+      "date": "2026-06-06",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T078",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T78",
+      "number": "TRN-1078",
+      "amount": "1597.00",
+      "date": "2026-06-15",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T78",
+      "number": "OTHER-78",
+      "amount": "16630.00",
+      "date": "2026-06-15",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T079",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T79",
+      "number": "TRN-1079",
+      "amount": "439.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T79",
+      "number": "NEW-79",
+      "amount": "439.00",
+      "date": "2026-06-10",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T080",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T80",
+      "number": "TRN-1080",
+      "amount": "6738.00",
+      "date": "2026-06-02",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T80",
+      "number": "TRN-1080",
+      "amount": "6738.00",
+      "date": "2026-06-02",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T081",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T81",
+      "number": "TRN-1081",
+      "amount": "4988.00",
+      "date": "2026-06-05",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T81",
+      "number": "trn 1081",
+      "amount": "4988.00",
+      "date": "2026-06-05",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T082",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T82",
+      "number": "TRN-1082",
+      "amount": "5391.00",
+      "date": "2026-06-12",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment LLC",
+      "vendor_id": "ALIAS82",
+      "number": "TRN-1082R",
+      "amount": "5391.00",
+      "date": "2026-06-12",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T083",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T83",
+      "number": "TRN-1083",
+      "amount": "1859.00",
+      "date": "2026-06-20",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T83",
+      "number": "TRN-I083",
+      "amount": "1859.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T084",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T84",
+      "number": "TRN-1084",
+      "amount": "5871.00",
+      "date": "2026-06-02",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T84",
+      "number": "TRN-1085",
+      "amount": "5871.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T085",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T85",
+      "number": "TRN-1085",
+      "amount": "8004.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER85",
+      "number": "TRN-1085",
+      "amount": "8004.00",
+      "date": "2026-06-17",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T086",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T86",
+      "number": "TRN-1086",
+      "amount": "3019.00",
+      "date": "2026-06-20",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T86",
+      "number": "OTHER-86",
+      "amount": "10172.00",
+      "date": "2026-06-20",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T087",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T87",
+      "number": "TRN-1087",
+      "amount": "8928.00",
+      "date": "2026-06-03",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T87",
+      "number": "NEW-87",
+      "amount": "8928.00",
+      "date": "2026-06-03",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T088",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T88",
+      "number": "TRN-1088",
+      "amount": "8340.00",
+      "date": "2026-06-07",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T88",
+      "number": "TRN-1088",
+      "amount": "8340.00",
+      "date": "2026-06-07",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T089",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T89",
+      "number": "TRN-1089",
+      "amount": "5004.00",
+      "date": "2026-06-13",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T89",
+      "number": "trn 1089",
+      "amount": "5004.00",
+      "date": "2026-06-13",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T090",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T90",
+      "number": "TRN-1090",
+      "amount": "8365.00",
+      "date": "2026-06-11",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services LLC",
+      "vendor_id": "ALIAS90",
+      "number": "TRN-1090R",
+      "amount": "8365.00",
+      "date": "2026-06-11",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T091",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T91",
+      "number": "TRN-1091",
+      "amount": "4693.00",
+      "date": "2026-06-09",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T91",
+      "number": "TRN-I09I",
+      "amount": "4693.00",
+      "date": "2026-06-25",
+      "description": "Monthly IT support copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T092",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T92",
+      "number": "TRN-1092",
+      "amount": "7272.00",
+      "date": "2026-06-03",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T92",
+      "number": "TRN-1093",
+      "amount": "7272.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T093",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T93",
+      "number": "TRN-1093",
+      "amount": "4772.00",
+      "date": "2026-06-13",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER93",
+      "number": "TRN-1093",
+      "amount": "4772.00",
+      "date": "2026-06-13",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T094",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T94",
+      "number": "TRN-1094",
+      "amount": "5603.00",
+      "date": "2026-06-20",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T94",
+      "number": "OTHER-94",
+      "amount": "16046.00",
+      "date": "2026-06-20",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T095",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T95",
+      "number": "TRN-1095",
+      "amount": "462.00",
+      "date": "2026-06-12",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T95",
+      "number": "NEW-95",
+      "amount": "462.00",
+      "date": "2026-06-12",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T096",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T96",
+      "number": "TRN-1096",
+      "amount": "4462.00",
+      "date": "2026-06-09",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T96",
+      "number": "TRN-1096",
+      "amount": "4462.00",
+      "date": "2026-06-09",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T097",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T97",
+      "number": "TRN-1097",
+      "amount": "4878.00",
+      "date": "2026-06-09",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T97",
+      "number": "trn 1097",
+      "amount": "4878.00",
+      "date": "2026-06-09",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T098",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T98",
+      "number": "TRN-1098",
+      "amount": "4009.00",
+      "date": "2026-06-05",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment LLC",
+      "vendor_id": "ALIAS98",
+      "number": "TRN-1098R",
+      "amount": "4009.00",
+      "date": "2026-06-05",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T099",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T99",
+      "number": "TRN-1099",
+      "amount": "4679.00",
+      "date": "2026-06-07",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T99",
+      "number": "TRN-I099",
+      "amount": "4679.00",
+      "date": "2026-06-25",
+      "description": "Monthly IT support copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T100",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T100",
+      "number": "TRN-1100",
+      "amount": "1749.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T100",
+      "number": "TRN-1101",
+      "amount": "1749.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T101",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T101",
+      "number": "TRN-1101",
+      "amount": "626.00",
+      "date": "2026-06-18",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER101",
+      "number": "TRN-1101",
+      "amount": "626.00",
+      "date": "2026-06-18",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T102",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T102",
+      "number": "TRN-1102",
+      "amount": "582.00",
+      "date": "2026-06-20",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T102",
+      "number": "OTHER-102",
+      "amount": "18164.00",
+      "date": "2026-06-20",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T103",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T103",
+      "number": "TRN-1103",
+      "amount": "5274.00",
+      "date": "2026-06-18",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T103",
+      "number": "NEW-103",
+      "amount": "5274.00",
+      "date": "2026-06-18",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T104",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T104",
+      "number": "TRN-1104",
+      "amount": "1233.00",
+      "date": "2026-06-09",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T104",
+      "number": "TRN-1104",
+      "amount": "1233.00",
+      "date": "2026-06-09",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T105",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T105",
+      "number": "TRN-1105",
+      "amount": "72.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T105",
+      "number": "trn 1105",
+      "amount": "72.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T106",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T106",
+      "number": "TRN-1106",
+      "amount": "6711.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies LLC",
+      "vendor_id": "ALIAS106",
+      "number": "TRN-1106R",
+      "amount": "6711.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T107",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T107",
+      "number": "TRN-1107",
+      "amount": "6279.00",
+      "date": "2026-06-08",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T107",
+      "number": "TRN-II07",
+      "amount": "6279.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T108",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T108",
+      "number": "TRN-1108",
+      "amount": "2881.00",
+      "date": "2026-06-13",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T108",
+      "number": "TRN-1109",
+      "amount": "2881.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T109",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T109",
+      "number": "TRN-1109",
+      "amount": "4646.00",
+      "date": "2026-06-04",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER109",
+      "number": "TRN-1109",
+      "amount": "4646.00",
+      "date": "2026-06-04",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T110",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T110",
+      "number": "TRN-1110",
+      "amount": "7530.00",
+      "date": "2026-06-02",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T110",
+      "number": "OTHER-110",
+      "amount": "19350.00",
+      "date": "2026-06-02",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T111",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T111",
+      "number": "TRN-1111",
+      "amount": "858.00",
+      "date": "2026-06-07",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T111",
+      "number": "NEW-111",
+      "amount": "858.00",
+      "date": "2026-06-07",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T112",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T112",
+      "number": "TRN-1112",
+      "amount": "4795.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T112",
+      "number": "TRN-1112",
+      "amount": "4795.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T113",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T113",
+      "number": "TRN-1113",
+      "amount": "3933.00",
+      "date": "2026-06-20",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T113",
+      "number": "trn 1113",
+      "amount": "3933.00",
+      "date": "2026-06-20",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T114",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T114",
+      "number": "TRN-1114",
+      "amount": "8229.00",
+      "date": "2026-06-08",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment LLC",
+      "vendor_id": "ALIAS114",
+      "number": "TRN-1114R",
+      "amount": "8229.00",
+      "date": "2026-06-08",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T115",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T115",
+      "number": "TRN-1115",
+      "amount": "2102.00",
+      "date": "2026-06-13",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T115",
+      "number": "TRN-III5",
+      "amount": "2102.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T116",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T116",
+      "number": "TRN-1116",
+      "amount": "2510.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T116",
+      "number": "TRN-1117",
+      "amount": "2510.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T117",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T117",
+      "number": "TRN-1117",
+      "amount": "7833.00",
+      "date": "2026-06-02",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER117",
+      "number": "TRN-1117",
+      "amount": "7833.00",
+      "date": "2026-06-02",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T118",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T118",
+      "number": "TRN-1118",
+      "amount": "8585.00",
+      "date": "2026-06-14",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T118",
+      "number": "OTHER-118",
+      "amount": "17088.00",
+      "date": "2026-06-14",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T119",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T119",
+      "number": "TRN-1119",
+      "amount": "4777.00",
+      "date": "2026-06-07",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T119",
+      "number": "NEW-119",
+      "amount": "4777.00",
+      "date": "2026-06-07",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T120",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T120",
+      "number": "TRN-1120",
+      "amount": "2665.00",
+      "date": "2026-06-07",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T120",
+      "number": "TRN-1120",
+      "amount": "2665.00",
+      "date": "2026-06-07",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T121",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T121",
+      "number": "TRN-1121",
+      "amount": "6394.00",
+      "date": "2026-06-03",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T121",
+      "number": "trn 1121",
+      "amount": "6394.00",
+      "date": "2026-06-03",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T122",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T122",
+      "number": "TRN-1122",
+      "amount": "518.00",
+      "date": "2026-06-16",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies LLC",
+      "vendor_id": "ALIAS122",
+      "number": "TRN-1122R",
+      "amount": "518.00",
+      "date": "2026-06-16",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T123",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T123",
+      "number": "TRN-1123",
+      "amount": "7962.00",
+      "date": "2026-06-19",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T123",
+      "number": "TRN-II23",
+      "amount": "7962.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T124",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T124",
+      "number": "TRN-1124",
+      "amount": "1765.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T124",
+      "number": "TRN-1125",
+      "amount": "1765.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T125",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T125",
+      "number": "TRN-1125",
+      "amount": "5973.00",
+      "date": "2026-06-06",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER125",
+      "number": "TRN-1125",
+      "amount": "5973.00",
+      "date": "2026-06-06",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T126",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T126",
+      "number": "TRN-1126",
+      "amount": "122.00",
+      "date": "2026-06-01",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T126",
+      "number": "OTHER-126",
+      "amount": "11164.00",
+      "date": "2026-06-01",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T127",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T127",
+      "number": "TRN-1127",
+      "amount": "1559.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T127",
+      "number": "NEW-127",
+      "amount": "1559.00",
+      "date": "2026-06-10",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T128",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T128",
+      "number": "TRN-1128",
+      "amount": "1791.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T128",
+      "number": "TRN-1128",
+      "amount": "1791.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T129",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T129",
+      "number": "TRN-1129",
+      "amount": "6039.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T129",
+      "number": "trn 1129",
+      "amount": "6039.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T130",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T130",
+      "number": "TRN-1130",
+      "amount": "6477.00",
+      "date": "2026-06-13",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies LLC",
+      "vendor_id": "ALIAS130",
+      "number": "TRN-1130R",
+      "amount": "6477.00",
+      "date": "2026-06-13",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T131",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T131",
+      "number": "TRN-1131",
+      "amount": "147.00",
+      "date": "2026-06-03",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T131",
+      "number": "TRN-II3I",
+      "amount": "147.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T132",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T132",
+      "number": "TRN-1132",
+      "amount": "6644.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T132",
+      "number": "TRN-1133",
+      "amount": "6644.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T133",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T133",
+      "number": "TRN-1133",
+      "amount": "8247.00",
+      "date": "2026-06-02",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER133",
+      "number": "TRN-1133",
+      "amount": "8247.00",
+      "date": "2026-06-02",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T134",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T134",
+      "number": "TRN-1134",
+      "amount": "3521.00",
+      "date": "2026-06-08",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T134",
+      "number": "OTHER-134",
+      "amount": "14579.00",
+      "date": "2026-06-08",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T135",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T135",
+      "number": "TRN-1135",
+      "amount": "4935.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T135",
+      "number": "NEW-135",
+      "amount": "4935.00",
+      "date": "2026-06-18",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T136",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T136",
+      "number": "TRN-1136",
+      "amount": "8523.00",
+      "date": "2026-06-20",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T136",
+      "number": "TRN-1136",
+      "amount": "8523.00",
+      "date": "2026-06-20",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T137",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T137",
+      "number": "TRN-1137",
+      "amount": "7554.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T137",
+      "number": "trn 1137",
+      "amount": "7554.00",
+      "date": "2026-06-01",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T138",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T138",
+      "number": "TRN-1138",
+      "amount": "8600.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies LLC",
+      "vendor_id": "ALIAS138",
+      "number": "TRN-1138R",
+      "amount": "8600.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T139",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T139",
+      "number": "TRN-1139",
+      "amount": "219.00",
+      "date": "2026-06-14",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T139",
+      "number": "TRN-II39",
+      "amount": "219.00",
+      "date": "2026-06-25",
+      "description": "Monthly IT support copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T140",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T140",
+      "number": "TRN-1140",
+      "amount": "1189.00",
+      "date": "2026-06-20",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T140",
+      "number": "TRN-1141",
+      "amount": "1189.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T141",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T141",
+      "number": "TRN-1141",
+      "amount": "8940.00",
+      "date": "2026-06-13",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER141",
+      "number": "TRN-1141",
+      "amount": "8940.00",
+      "date": "2026-06-13",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T142",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T142",
+      "number": "TRN-1142",
+      "amount": "5678.00",
+      "date": "2026-06-09",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T142",
+      "number": "OTHER-142",
+      "amount": "18484.00",
+      "date": "2026-06-09",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T143",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T143",
+      "number": "TRN-1143",
+      "amount": "5745.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T143",
+      "number": "NEW-143",
+      "amount": "5745.00",
+      "date": "2026-06-02",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T144",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T144",
+      "number": "TRN-1144",
+      "amount": "6589.00",
+      "date": "2026-06-03",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T144",
+      "number": "TRN-1144",
+      "amount": "6589.00",
+      "date": "2026-06-03",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T145",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T145",
+      "number": "TRN-1145",
+      "amount": "4932.00",
+      "date": "2026-06-04",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T145",
+      "number": "trn 1145",
+      "amount": "4932.00",
+      "date": "2026-06-04",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T146",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T146",
+      "number": "TRN-1146",
+      "amount": "8618.00",
+      "date": "2026-06-07",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment LLC",
+      "vendor_id": "ALIAS146",
+      "number": "TRN-1146R",
+      "amount": "8618.00",
+      "date": "2026-06-07",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T147",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T147",
+      "number": "TRN-1147",
+      "amount": "1310.00",
+      "date": "2026-06-20",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T147",
+      "number": "TRN-II47",
+      "amount": "1310.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T148",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T148",
+      "number": "TRN-1148",
+      "amount": "1244.00",
+      "date": "2026-06-17",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T148",
+      "number": "TRN-1149",
+      "amount": "1244.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T149",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T149",
+      "number": "TRN-1149",
+      "amount": "8063.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER149",
+      "number": "TRN-1149",
+      "amount": "8063.00",
+      "date": "2026-06-17",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T150",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T150",
+      "number": "TRN-1150",
+      "amount": "2923.00",
+      "date": "2026-06-18",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T150",
+      "number": "OTHER-150",
+      "amount": "14869.00",
+      "date": "2026-06-18",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T151",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T151",
+      "number": "TRN-1151",
+      "amount": "7866.00",
+      "date": "2026-06-12",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T151",
+      "number": "NEW-151",
+      "amount": "7866.00",
+      "date": "2026-06-12",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T152",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T152",
+      "number": "TRN-1152",
+      "amount": "2131.00",
+      "date": "2026-06-16",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T152",
+      "number": "TRN-1152",
+      "amount": "2131.00",
+      "date": "2026-06-16",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T153",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T153",
+      "number": "TRN-1153",
+      "amount": "8356.00",
+      "date": "2026-06-12",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T153",
+      "number": "trn 1153",
+      "amount": "8356.00",
+      "date": "2026-06-12",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T154",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T154",
+      "number": "TRN-1154",
+      "amount": "547.00",
+      "date": "2026-06-11",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services LLC",
+      "vendor_id": "ALIAS154",
+      "number": "TRN-1154R",
+      "amount": "547.00",
+      "date": "2026-06-11",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T155",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T155",
+      "number": "TRN-1155",
+      "amount": "3488.00",
+      "date": "2026-06-07",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T155",
+      "number": "TRN-II55",
+      "amount": "3488.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T156",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T156",
+      "number": "TRN-1156",
+      "amount": "5452.00",
+      "date": "2026-06-16",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T156",
+      "number": "TRN-1157",
+      "amount": "5452.00",
+      "date": "2026-07-10",
+      "description": "Printer cartridge order",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T157",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T157",
+      "number": "TRN-1157",
+      "amount": "736.00",
+      "date": "2026-06-02",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER157",
+      "number": "TRN-1157",
+      "amount": "736.00",
+      "date": "2026-06-02",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T158",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T158",
+      "number": "TRN-1158",
+      "amount": "8473.00",
+      "date": "2026-06-07",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T158",
+      "number": "OTHER-158",
+      "amount": "15710.00",
+      "date": "2026-06-07",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T159",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T159",
+      "number": "TRN-1159",
+      "amount": "5718.00",
+      "date": "2026-06-01",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T159",
+      "number": "NEW-159",
+      "amount": "5718.00",
+      "date": "2026-06-01",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T160",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T160",
+      "number": "TRN-1160",
+      "amount": "5357.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T160",
+      "number": "TRN-1160",
+      "amount": "5357.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T161",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T161",
+      "number": "TRN-1161",
+      "amount": "1166.00",
+      "date": "2026-06-04",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T161",
+      "number": "trn 1161",
+      "amount": "1166.00",
+      "date": "2026-06-04",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T162",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T162",
+      "number": "TRN-1162",
+      "amount": "592.00",
+      "date": "2026-06-19",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment LLC",
+      "vendor_id": "ALIAS162",
+      "number": "TRN-1162R",
+      "amount": "592.00",
+      "date": "2026-06-19",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T163",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T163",
+      "number": "TRN-1163",
+      "amount": "3896.00",
+      "date": "2026-06-12",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T163",
+      "number": "TRN-II63",
+      "amount": "3896.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T164",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T164",
+      "number": "TRN-1164",
+      "amount": "1916.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T164",
+      "number": "TRN-1165",
+      "amount": "1916.00",
+      "date": "2026-07-10",
+      "description": "Printer cartridge order",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T165",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T165",
+      "number": "TRN-1165",
+      "amount": "4825.00",
+      "date": "2026-06-06",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER165",
+      "number": "TRN-1165",
+      "amount": "4825.00",
+      "date": "2026-06-06",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T166",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T166",
+      "number": "TRN-1166",
+      "amount": "6355.00",
+      "date": "2026-06-01",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T166",
+      "number": "OTHER-166",
+      "amount": "10879.00",
+      "date": "2026-06-01",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T167",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T167",
+      "number": "TRN-1167",
+      "amount": "2654.00",
+      "date": "2026-06-08",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T167",
+      "number": "NEW-167",
+      "amount": "2654.00",
+      "date": "2026-06-08",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T168",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T168",
+      "number": "TRN-1168",
+      "amount": "7732.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T168",
+      "number": "TRN-1168",
+      "amount": "7732.00",
+      "date": "2026-06-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T169",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T169",
+      "number": "TRN-1169",
+      "amount": "2057.00",
+      "date": "2026-06-09",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T169",
+      "number": "trn 1169",
+      "amount": "2057.00",
+      "date": "2026-06-09",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T170",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T170",
+      "number": "TRN-1170",
+      "amount": "7470.00",
+      "date": "2026-06-12",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services LLC",
+      "vendor_id": "ALIAS170",
+      "number": "TRN-1170R",
+      "amount": "7470.00",
+      "date": "2026-06-12",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T171",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T171",
+      "number": "TRN-1171",
+      "amount": "7653.00",
+      "date": "2026-06-08",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T171",
+      "number": "TRN-II7I",
+      "amount": "7653.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T172",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T172",
+      "number": "TRN-1172",
+      "amount": "1076.00",
+      "date": "2026-06-18",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T172",
+      "number": "TRN-1173",
+      "amount": "1076.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T173",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T173",
+      "number": "TRN-1173",
+      "amount": "6630.00",
+      "date": "2026-06-20",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER173",
+      "number": "TRN-1173",
+      "amount": "6630.00",
+      "date": "2026-06-20",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T174",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T174",
+      "number": "TRN-1174",
+      "amount": "1054.00",
+      "date": "2026-06-14",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T174",
+      "number": "OTHER-174",
+      "amount": "12046.00",
+      "date": "2026-06-14",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T175",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T175",
+      "number": "TRN-1175",
+      "amount": "2468.00",
+      "date": "2026-06-18",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T175",
+      "number": "NEW-175",
+      "amount": "2468.00",
+      "date": "2026-06-18",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T176",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T176",
+      "number": "TRN-1176",
+      "amount": "5389.00",
+      "date": "2026-06-14",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T176",
+      "number": "TRN-1176",
+      "amount": "5389.00",
+      "date": "2026-06-14",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T177",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T177",
+      "number": "TRN-1177",
+      "amount": "3019.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T177",
+      "number": "trn 1177",
+      "amount": "3019.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T178",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T178",
+      "number": "TRN-1178",
+      "amount": "2882.00",
+      "date": "2026-06-10",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies LLC",
+      "vendor_id": "ALIAS178",
+      "number": "TRN-1178R",
+      "amount": "2882.00",
+      "date": "2026-06-10",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T179",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T179",
+      "number": "TRN-1179",
+      "amount": "8262.00",
+      "date": "2026-06-08",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T179",
+      "number": "TRN-II79",
+      "amount": "8262.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T180",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T180",
+      "number": "TRN-1180",
+      "amount": "5480.00",
+      "date": "2026-06-08",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T180",
+      "number": "TRN-1181",
+      "amount": "5480.00",
+      "date": "2026-07-10",
+      "description": "Printer cartridge order",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T181",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T181",
+      "number": "TRN-1181",
+      "amount": "4109.00",
+      "date": "2026-06-03",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER181",
+      "number": "TRN-1181",
+      "amount": "4109.00",
+      "date": "2026-06-03",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T182",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T182",
+      "number": "TRN-1182",
+      "amount": "4408.00",
+      "date": "2026-06-06",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T182",
+      "number": "OTHER-182",
+      "amount": "11334.00",
+      "date": "2026-06-06",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T183",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T183",
+      "number": "TRN-1183",
+      "amount": "4477.00",
+      "date": "2026-06-09",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T183",
+      "number": "NEW-183",
+      "amount": "4477.00",
+      "date": "2026-06-09",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T184",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T184",
+      "number": "TRN-1184",
+      "amount": "5295.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T184",
+      "number": "TRN-1184",
+      "amount": "5295.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T185",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T185",
+      "number": "TRN-1185",
+      "amount": "7952.00",
+      "date": "2026-06-20",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T185",
+      "number": "trn 1185",
+      "amount": "7952.00",
+      "date": "2026-06-20",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T186",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T186",
+      "number": "TRN-1186",
+      "amount": "4721.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services LLC",
+      "vendor_id": "ALIAS186",
+      "number": "TRN-1186R",
+      "amount": "4721.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T187",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T187",
+      "number": "TRN-1187",
+      "amount": "4646.00",
+      "date": "2026-06-01",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T187",
+      "number": "TRN-II87",
+      "amount": "4646.00",
+      "date": "2026-06-25",
+      "description": "Electrical maintenance copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T188",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T188",
+      "number": "TRN-1188",
+      "amount": "7266.00",
+      "date": "2026-06-06",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T188",
+      "number": "TRN-1189",
+      "amount": "7266.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T189",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T189",
+      "number": "TRN-1189",
+      "amount": "3302.00",
+      "date": "2026-06-02",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER189",
+      "number": "TRN-1189",
+      "amount": "3302.00",
+      "date": "2026-06-02",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T190",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T190",
+      "number": "TRN-1190",
+      "amount": "2745.00",
+      "date": "2026-06-06",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T190",
+      "number": "OTHER-190",
+      "amount": "12487.00",
+      "date": "2026-06-06",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T191",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T191",
+      "number": "TRN-1191",
+      "amount": "6590.00",
+      "date": "2026-06-16",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T191",
+      "number": "NEW-191",
+      "amount": "6590.00",
+      "date": "2026-06-16",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T192",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T192",
+      "number": "TRN-1192",
+      "amount": "2719.00",
+      "date": "2026-06-12",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T192",
+      "number": "TRN-1192",
+      "amount": "2719.00",
+      "date": "2026-06-12",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T193",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T193",
+      "number": "TRN-1193",
+      "amount": "7927.00",
+      "date": "2026-06-07",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T193",
+      "number": "trn 1193",
+      "amount": "7927.00",
+      "date": "2026-06-07",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T194",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T194",
+      "number": "TRN-1194",
+      "amount": "3972.00",
+      "date": "2026-06-17",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment LLC",
+      "vendor_id": "ALIAS194",
+      "number": "TRN-1194R",
+      "amount": "3972.00",
+      "date": "2026-06-17",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T195",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T195",
+      "number": "TRN-1195",
+      "amount": "3783.00",
+      "date": "2026-06-11",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T195",
+      "number": "TRN-II95",
+      "amount": "3783.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T196",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T196",
+      "number": "TRN-1196",
+      "amount": "5530.00",
+      "date": "2026-06-03",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T196",
+      "number": "TRN-1197",
+      "amount": "5530.00",
+      "date": "2026-07-10",
+      "description": "Safety equipment delivery",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T197",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T197",
+      "number": "TRN-1197",
+      "amount": "6188.00",
+      "date": "2026-06-08",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER197",
+      "number": "TRN-1197",
+      "amount": "6188.00",
+      "date": "2026-06-08",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T198",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T198",
+      "number": "TRN-1198",
+      "amount": "1306.00",
+      "date": "2026-06-18",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T198",
+      "number": "OTHER-198",
+      "amount": "16594.00",
+      "date": "2026-06-18",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T199",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T199",
+      "number": "TRN-1199",
+      "amount": "6568.00",
+      "date": "2026-06-12",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T199",
+      "number": "NEW-199",
+      "amount": "6568.00",
+      "date": "2026-06-12",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T200",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T200",
+      "number": "TRN-1200",
+      "amount": "4925.00",
+      "date": "2026-06-09",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T200",
+      "number": "TRN-1200",
+      "amount": "4925.00",
+      "date": "2026-06-09",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T201",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T201",
+      "number": "TRN-1201",
+      "amount": "5750.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T201",
+      "number": "trn 1201",
+      "amount": "5750.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T202",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T202",
+      "number": "TRN-1202",
+      "amount": "7974.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies LLC",
+      "vendor_id": "ALIAS202",
+      "number": "TRN-1202R",
+      "amount": "7974.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T203",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T203",
+      "number": "TRN-1203",
+      "amount": "6813.00",
+      "date": "2026-06-13",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T203",
+      "number": "TRN-I203",
+      "amount": "6813.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T204",
+    "a": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T204",
+      "number": "TRN-1204",
+      "amount": "1778.00",
+      "date": "2026-06-17",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Services",
+      "vendor_id": "T204",
+      "number": "TRN-1205",
+      "amount": "1778.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T205",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T205",
+      "number": "TRN-1205",
+      "amount": "5832.00",
+      "date": "2026-06-07",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER205",
+      "number": "TRN-1205",
+      "amount": "5832.00",
+      "date": "2026-06-07",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T206",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T206",
+      "number": "TRN-1206",
+      "amount": "4184.00",
+      "date": "2026-06-03",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T206",
+      "number": "OTHER-206",
+      "amount": "12078.00",
+      "date": "2026-06-03",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T207",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T207",
+      "number": "TRN-1207",
+      "amount": "6516.00",
+      "date": "2026-06-16",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T207",
+      "number": "NEW-207",
+      "amount": "6516.00",
+      "date": "2026-06-16",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T208",
+    "a": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T208",
+      "number": "TRN-1208",
+      "amount": "67.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Equipment",
+      "vendor_id": "T208",
+      "number": "TRN-1208",
+      "amount": "67.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T209",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T209",
+      "number": "TRN-1209",
+      "amount": "6613.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T209",
+      "number": "trn 1209",
+      "amount": "6613.00",
+      "date": "2026-06-14",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T210",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T210",
+      "number": "TRN-1210",
+      "amount": "7714.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services LLC",
+      "vendor_id": "ALIAS210",
+      "number": "TRN-1210R",
+      "amount": "7714.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T211",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T211",
+      "number": "TRN-1211",
+      "amount": "2598.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T211",
+      "number": "TRN-I2II",
+      "amount": "2598.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T212",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T212",
+      "number": "TRN-1212",
+      "amount": "5757.00",
+      "date": "2026-06-14",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T212",
+      "number": "TRN-1213",
+      "amount": "5757.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T213",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T213",
+      "number": "TRN-1213",
+      "amount": "1976.00",
+      "date": "2026-06-08",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER213",
+      "number": "TRN-1213",
+      "amount": "1976.00",
+      "date": "2026-06-08",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T214",
+    "a": {
+      "vendor": "Birch Services",
+      "vendor_id": "T214",
+      "number": "TRN-1214",
+      "amount": "4091.00",
+      "date": "2026-06-02",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Services",
+      "vendor_id": "T214",
+      "number": "OTHER-214",
+      "amount": "17313.00",
+      "date": "2026-06-02",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T215",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T215",
+      "number": "TRN-1215",
+      "amount": "5994.00",
+      "date": "2026-06-07",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T215",
+      "number": "NEW-215",
+      "amount": "5994.00",
+      "date": "2026-06-07",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T216",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T216",
+      "number": "TRN-1216",
+      "amount": "8311.00",
+      "date": "2026-06-02",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T216",
+      "number": "TRN-1216",
+      "amount": "8311.00",
+      "date": "2026-06-02",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T217",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T217",
+      "number": "TRN-1217",
+      "amount": "2593.00",
+      "date": "2026-06-01",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T217",
+      "number": "trn 1217",
+      "amount": "2593.00",
+      "date": "2026-06-01",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T218",
+    "a": {
+      "vendor": "Nimbus Services",
+      "vendor_id": "T218",
+      "number": "TRN-1218",
+      "amount": "3028.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Services LLC",
+      "vendor_id": "ALIAS218",
+      "number": "TRN-1218R",
+      "amount": "3028.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T219",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T219",
+      "number": "TRN-1219",
+      "amount": "1974.00",
+      "date": "2026-06-19",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T219",
+      "number": "TRN-I2I9",
+      "amount": "1974.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T220",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T220",
+      "number": "TRN-1220",
+      "amount": "4726.00",
+      "date": "2026-06-11",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T220",
+      "number": "TRN-1221",
+      "amount": "4726.00",
+      "date": "2026-07-10",
+      "description": "Electrical maintenance",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T221",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T221",
+      "number": "TRN-1221",
+      "amount": "4317.00",
+      "date": "2026-06-18",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER221",
+      "number": "TRN-1221",
+      "amount": "4317.00",
+      "date": "2026-06-18",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T222",
+    "a": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T222",
+      "number": "TRN-1222",
+      "amount": "4583.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Birch Supplies",
+      "vendor_id": "T222",
+      "number": "OTHER-222",
+      "amount": "13839.00",
+      "date": "2026-06-17",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T223",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T223",
+      "number": "TRN-1223",
+      "amount": "521.00",
+      "date": "2026-06-08",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T223",
+      "number": "NEW-223",
+      "amount": "521.00",
+      "date": "2026-06-08",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T224",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T224",
+      "number": "TRN-1224",
+      "amount": "5241.00",
+      "date": "2026-06-05",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T224",
+      "number": "TRN-1224",
+      "amount": "5241.00",
+      "date": "2026-06-05",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T225",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T225",
+      "number": "TRN-1225",
+      "amount": "6824.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T225",
+      "number": "trn 1225",
+      "amount": "6824.00",
+      "date": "2026-06-19",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T226",
+    "a": {
+      "vendor": "Maple Equipment",
+      "vendor_id": "T226",
+      "number": "TRN-1226",
+      "amount": "6861.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Equipment LLC",
+      "vendor_id": "ALIAS226",
+      "number": "TRN-1226R",
+      "amount": "6861.00",
+      "date": "2026-06-17",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T227",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T227",
+      "number": "TRN-1227",
+      "amount": "8623.00",
+      "date": "2026-06-05",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T227",
+      "number": "TRN-I227",
+      "amount": "8623.00",
+      "date": "2026-06-25",
+      "description": "Printer cartridge order copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T228",
+    "a": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T228",
+      "number": "TRN-1228",
+      "amount": "3174.00",
+      "date": "2026-06-04",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Services",
+      "vendor_id": "T228",
+      "number": "TRN-1229",
+      "amount": "3174.00",
+      "date": "2026-07-10",
+      "description": "Printer cartridge order",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T229",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T229",
+      "number": "TRN-1229",
+      "amount": "3032.00",
+      "date": "2026-06-04",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER229",
+      "number": "TRN-1229",
+      "amount": "3032.00",
+      "date": "2026-06-04",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T230",
+    "a": {
+      "vendor": "Maple Services",
+      "vendor_id": "T230",
+      "number": "TRN-1230",
+      "amount": "647.00",
+      "date": "2026-06-17",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Services",
+      "vendor_id": "T230",
+      "number": "OTHER-230",
+      "amount": "18670.00",
+      "date": "2026-06-17",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T231",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T231",
+      "number": "TRN-1231",
+      "amount": "3104.00",
+      "date": "2026-06-10",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T231",
+      "number": "NEW-231",
+      "amount": "3104.00",
+      "date": "2026-06-10",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T232",
+    "a": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T232",
+      "number": "TRN-1232",
+      "amount": "6783.00",
+      "date": "2026-06-07",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Equipment",
+      "vendor_id": "T232",
+      "number": "TRN-1232",
+      "amount": "6783.00",
+      "date": "2026-06-07",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T233",
+    "a": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T233",
+      "number": "TRN-1233",
+      "amount": "179.00",
+      "date": "2026-06-16",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Supplies",
+      "vendor_id": "T233",
+      "number": "trn 1233",
+      "amount": "179.00",
+      "date": "2026-06-16",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T234",
+    "a": {
+      "vendor": "Orchard Equipment",
+      "vendor_id": "T234",
+      "number": "TRN-1234",
+      "amount": "2699.00",
+      "date": "2026-06-01",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Orchard Equipment LLC",
+      "vendor_id": "ALIAS234",
+      "number": "TRN-1234R",
+      "amount": "2699.00",
+      "date": "2026-06-01",
+      "description": "Printer cartridge order",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T235",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T235",
+      "number": "TRN-1235",
+      "amount": "7409.00",
+      "date": "2026-06-13",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T235",
+      "number": "TRN-I235",
+      "amount": "7409.00",
+      "date": "2026-06-25",
+      "description": "Safety equipment delivery copy",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1
+  },
+  {
+    "id": "T236",
+    "a": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T236",
+      "number": "TRN-1236",
+      "amount": "435.00",
+      "date": "2026-06-15",
+      "description": "Monthly IT support",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Maple Supplies",
+      "vendor_id": "T236",
+      "number": "TRN-1237",
+      "amount": "435.00",
+      "date": "2026-07-10",
+      "description": "Monthly IT support",
+      "period": "2026-07",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T237",
+    "a": {
+      "vendor": "Nimbus Equipment",
+      "vendor_id": "T237",
+      "number": "TRN-1237",
+      "amount": "3296.00",
+      "date": "2026-06-04",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Unrelated Catering",
+      "vendor_id": "OTHER237",
+      "number": "TRN-1237",
+      "amount": "3296.00",
+      "date": "2026-06-04",
+      "description": "Catered lunch for guests",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T238",
+    "a": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T238",
+      "number": "TRN-1238",
+      "amount": "4254.00",
+      "date": "2026-06-15",
+      "description": "Safety equipment delivery",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Cobalt Supplies",
+      "vendor_id": "T238",
+      "number": "OTHER-238",
+      "amount": "12664.00",
+      "date": "2026-06-15",
+      "description": "Separate equipment purchase",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  },
+  {
+    "id": "T239",
+    "a": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T239",
+      "number": "TRN-1239",
+      "amount": "6719.00",
+      "date": "2026-06-03",
+      "description": "Electrical maintenance",
+      "period": "2026-06",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Nimbus Supplies",
+      "vendor_id": "T239",
+      "number": "NEW-239",
+      "amount": "6719.00",
+      "date": "2026-06-03",
+      "description": "Unrelated service installation",
+      "period": "2026-05",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0
+  }
+]

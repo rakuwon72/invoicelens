@@ -1,0 +1,734 @@
+[
+  {
+    "id": "E01",
+    "scenario": "Exact resubmission",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Both records represent the same fictional equipment delivery."
+  },
+  {
+    "id": "E02",
+    "scenario": "Case and punctuation",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "ast 2026 081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Only invoice-number presentation changed."
+  },
+  {
+    "id": "E03",
+    "scenario": "Duplicate vendor master",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply LLC",
+      "vendor_id": "V991",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Fictional alias record; same underlying delivery."
+  },
+  {
+    "id": "E04",
+    "scenario": "OCR character substitution",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2O26-O81",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Letter O substituted for zero in the same document."
+  },
+  {
+    "id": "E05",
+    "scenario": "Reissued number suffix",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081R",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Synthetic second billing copy, not a new obligation."
+  },
+  {
+    "id": "E06",
+    "scenario": "Late reminder",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-12-15",
+      "description": "Replacement workstation equipment reminder",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Date changed on a reminder for the same fictional order."
+  },
+  {
+    "id": "E07",
+    "scenario": "Alias plus number change",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supplies",
+      "vendor_id": "V802",
+      "number": "081-REISSUE",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Label follows the invented delivery history; text alone is imperfect."
+  },
+  {
+    "id": "E08",
+    "scenario": "Short supplier name",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "AOS",
+      "vendor_id": "V803",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "AOS is a fictional alias unknown to the model."
+  },
+  {
+    "id": "E09",
+    "scenario": "Different wording same delivery",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST081-COPY",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Computers for the operations floor",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Same fictional shipment, described in different language."
+  },
+  {
+    "id": "E10",
+    "scenario": "Duplicate partial-value entry",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "625.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Second entry repeats half of the same obligation; equal-amount gate misses it."
+  },
+  {
+    "id": "E11",
+    "scenario": "Identical document different vendor ID",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V900",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Duplicate master ID only; business identity unchanged."
+  },
+  {
+    "id": "E12",
+    "scenario": "Date typo on duplicate",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-01-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 1,
+    "rationale": "Same invoice with an incorrect date; requires source verification."
+  },
+  {
+    "id": "E13",
+    "scenario": "Recurring monthly charge",
+    "a": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-SEP",
+      "amount": "900.00",
+      "date": "2026-09-30",
+      "description": "Managed network service",
+      "period": "2026-09",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-OCT",
+      "amount": "900.00",
+      "date": "2026-10-30",
+      "description": "Managed network service",
+      "period": "2026-10",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Equal recurring prices are separate service periods."
+  },
+  {
+    "id": "E14",
+    "scenario": "Recurring period missing",
+    "a": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-SEP",
+      "amount": "900.00",
+      "date": "2026-09-30",
+      "description": "Managed network service",
+      "period": "2026-09",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-OCT",
+      "amount": "900.00",
+      "date": "2026-10-30",
+      "description": "Managed network service",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Separate fictional month, but period evidence is missing in the second record."
+  },
+  {
+    "id": "E15",
+    "scenario": "Separate delivery same day",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-082",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Two legitimate identical equipment orders on the same day."
+  },
+  {
+    "id": "E16",
+    "scenario": "Unrelated supplier same amount",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Lakeside Catering",
+      "vendor_id": "V999",
+      "number": "LC-456",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Conference lunch",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Same amount does not establish a common obligation."
+  },
+  {
+    "id": "E17",
+    "scenario": "Similar legal names different suppliers",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply East",
+      "vendor_id": "V777",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Separate fictional legal entities; name similarity is misleading."
+  },
+  {
+    "id": "E18",
+    "scenario": "Reused number in later period",
+    "a": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-SEP",
+      "amount": "900.00",
+      "date": "2026-09-30",
+      "description": "Managed network service",
+      "period": "2026-09",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-SEP",
+      "amount": "900.00",
+      "date": "2026-10-30",
+      "description": "Managed network service",
+      "period": "2026-10",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Synthetic recurring account reference reused legitimately; period distinguishes obligations."
+  },
+  {
+    "id": "E19",
+    "scenario": "Different invoice amount",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-085",
+      "amount": "1500.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "New fictional order with a different total."
+  },
+  {
+    "id": "E20",
+    "scenario": "Different description and number",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "DEL-940",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Annual office carpet cleaning",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Unrelated service from the same diversified supplier."
+  },
+  {
+    "id": "E21",
+    "scenario": "Distant legitimate purchase",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-099",
+      "amount": "1250.00",
+      "date": "2026-12-30",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Similar equipment reordered months later."
+  },
+  {
+    "id": "E22",
+    "scenario": "Distinct recurring period explicit",
+    "a": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-SEP",
+      "amount": "900.00",
+      "date": "2026-09-30",
+      "description": "Managed network service",
+      "period": "2026-09",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Harbor Network Care",
+      "vendor_id": "V901",
+      "number": "HNC-NOV",
+      "amount": "900.00",
+      "date": "2026-11-30",
+      "description": "Managed network service",
+      "period": "2026-11",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": 0,
+    "rationale": "Third separate monthly service obligation."
+  },
+  {
+    "id": "E23",
+    "scenario": "Missing amount",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": null,
+    "rationale": "No reliable total: abstain and repair the input.",
+    "expected_route": "DATA REVIEW"
+  },
+  {
+    "id": "E24",
+    "scenario": "Credit note",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "CN-081",
+      "amount": "-1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "credit_note"
+    },
+    "label": null,
+    "rationale": "Credit reconciliation is outside duplicate-invoice scoring.",
+    "expected_route": "SPECIALIST REVIEW"
+  },
+  {
+    "id": "E25",
+    "scenario": "Currency mismatch",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "EUR",
+      "kind": "invoice"
+    },
+    "label": null,
+    "rationale": "No comparison of nominal USD and EUR amounts.",
+    "expected_route": "OUT OF SCOPE"
+  },
+  {
+    "id": "E26",
+    "scenario": "Invalid invoice date",
+    "a": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-10-01",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "b": {
+      "vendor": "Aster Office Supply",
+      "vendor_id": "V801",
+      "number": "AST-2026-081",
+      "amount": "1250.00",
+      "date": "2026-13-99",
+      "description": "Replacement workstation equipment",
+      "period": "",
+      "currency": "USD",
+      "kind": "invoice"
+    },
+    "label": null,
+    "rationale": "Invalid source value: do not silently infer a date.",
+    "expected_route": "DATA REVIEW"
+  }
+]
