@@ -142,7 +142,7 @@ def main():
         (ROOT / filename).write_text(json.dumps(obj, indent=2), encoding='utf-8')
     with (ROOT / 'results.csv').open('w', newline='', encoding='utf-8') as f:
         fields = ['id','scenario','label','status','score','exact','normalized','broad_fuzzy','hybrid','rationale']
-        writer = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
         writer.writeheader(); writer.writerows(results)
     payload = json.dumps(report, ensure_ascii=True).replace('<', '\\u003c')
     (ROOT / 'index.html').write_text((ROOT / 'reviewer.template.html').read_text(encoding='utf-8').replace('__REPORT_JSON__', payload), encoding='utf-8')
